@@ -12,6 +12,8 @@
 		8B607AAB2256CD6000052D28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B607AA92256CD6000052D28 /* Main.storyboard */; };
 		8B607AAD2256CD6200052D28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B607AAC2256CD6200052D28 /* Assets.xcassets */; };
 		8B607AB02256CD6200052D28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B607AAE2256CD6200052D28 /* LaunchScreen.storyboard */; };
+		8B607AB9225829FA00052D28 /* count_beep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B607AB7225829F900052D28 /* count_beep.mp3 */; };
+		8B607ABA225829FA00052D28 /* score_beep.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B607AB8225829F900052D28 /* score_beep.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		8B607AAC2256CD6200052D28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B607AAF2256CD6200052D28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B607AB12256CD6200052D28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B607AB7225829F900052D28 /* count_beep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = count_beep.mp3; sourceTree = "<group>"; };
+		8B607AB8225829F900052D28 /* score_beep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = score_beep.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				8B607AAC2256CD6200052D28 /* Assets.xcassets */,
 				8B607AAE2256CD6200052D28 /* LaunchScreen.storyboard */,
 				8B607AB12256CD6200052D28 /* Info.plist */,
+				8B607AB7225829F900052D28 /* count_beep.mp3 */,
+				8B607AB8225829F900052D28 /* score_beep.wav */,
 			);
 			path = MotionMonitor;
 			sourceTree = "<group>";
@@ -122,7 +128,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B607AB9225829FA00052D28 /* count_beep.mp3 in Resources */,
 				8B607AB02256CD6200052D28 /* LaunchScreen.storyboard in Resources */,
+				8B607ABA225829FA00052D28 /* score_beep.wav in Resources */,
 				8B607AAD2256CD6200052D28 /* Assets.xcassets in Resources */,
 				8B607AAB2256CD6000052D28 /* Main.storyboard in Resources */,
 			);
@@ -285,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2BULHRS882;
 				INFOPLIST_FILE = MotionMonitor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +312,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2BULHRS882;
 				INFOPLIST_FILE = MotionMonitor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
